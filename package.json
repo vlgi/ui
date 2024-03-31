@@ -1,6 +1,6 @@
 {
   "name": "uai-components",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "scripts": {
     "dev": "vite dev --host --port 5000",
     "storybook": "storybook dev -p 6006",
