@@ -125,7 +125,7 @@
       <div
         class="content"
         class:content-background={contentBackground}
-        transition:slide|local={expansionTransitionParams}
+        transition:slide={expansionTransitionParams}
       >
         <div class="content-content">
           <!-- the collapsable content -->
