@@ -1,5 +1,11 @@
 # Changelogs
 
+## 5.0.0
+
+### Breaking Changes
+
+- Svelte ^4.0 is required
+
 ## v4.0.0
 
 ### Breaking Changes
