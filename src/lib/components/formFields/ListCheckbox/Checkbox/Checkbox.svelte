@@ -73,6 +73,8 @@
 
   export let uncheckedText = "";
 
+  export let disabled = false;
+
   const isInsideContext = hasContext("FormContext");
   const { setFieldValue, addFieldToContext, removeFieldFromContext } =
     isInsideContext && getContext<TFormContext>("FormContext");
@@ -147,6 +149,7 @@
       {id}
       class={styleType}
       {checked}
+      {disabled}
       bind:this={inputElement}
       on:click={handleCheck}
     />

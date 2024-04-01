@@ -101,6 +101,20 @@ export const TextSwitchChecked: Story = {
   },
 };
 
+export const TextSwitchDisabled: Story = {
+  ...template,
+  args: {
+    ...template.args,
+    // args for this specific story here
+    name: "text-switch",
+    styleType: "text-switch",
+    checked: true,
+    checkedText: "Ativo",
+    uncheckedText: "Inativo",
+    disabled: true,
+  },
+};
+
 export const Labeled: Story = {
   ...template,
   args: {
